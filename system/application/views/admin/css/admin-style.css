@@ -1,0 +1,155 @@
+body{
+background-color:#FFFFFF;
+background-image:url(../../e-learning/images/bg-body.jpg);
+background-repeat:repeat-x;
+background-attachment:fixed;
+background-position:bottom;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+padding:0;
+margin:0;
+}
+#menu-bawah{
+	margin:0 auto;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image:url(../images/bg-mn-luar.png);
+	background-repeat:no-repeat;
+	height:13%;
+	width:925px;;
+	padding-top:31px;
+	color:#FFFFFF;
+}
+#bg-mn{
+width:93%;
+margin:0 auto;
+padding:3px;
+}
+#bg-mn-kiri{
+background-image:url(../images/bg-mn-kiri.png);
+background-repeat:no-repeat;
+width:20px;
+float:left;
+height:35px;
+}
+#bg-mn-tengah{
+background-image:url(../images/bg-mn-tengah.png);
+background-repeat:repeat-x;
+padding-top:7px;
+float:left;
+font-size:13px;
+font-weight:bold;
+color:#666666;
+height:35px;
+}
+#bg-mn-kanan{
+background-image:url(../images/bg-mn-kanan.png);
+float:left;
+width:20px;
+height:35px;
+}
+#bg-head{
+margin:0 auto;
+width:925px;
+}
+#bg-isi{
+margin:0 auto;
+background-image:url(../images/bg-cnt.png);
+background-repeat:repeat-y;
+padding-left:20px;
+padding-right:10px;
+width:895px;
+}
+#bg-isi a:link{
+color:#FF0000;
+text-decoration:none;
+}
+#bg-isi a:visited{
+color:#FF0000;
+text-decoration:none;
+}
+#bg-isi a:hover{
+color:#000;
+text-decoration:none;
+}
+#bg-isi a:active{
+color:#000;
+text-decoration:none;
+}
+.round{
+-moz-border-radius:5px;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius:5px;
+background-color:#FFFFFF;
+}
+h3{
+font-size:12px;
+margin:0;
+font-weight:bold;
+}
+h2{
+font-size:14px;
+margin:0;
+color:#666666;
+font-weight:bold;
+}
+.td-hover{
+background-color:#FFF;
+}
+.td-hover:hover{
+background-color:#FFCC00;
+}
+.td-hover a{
+color:#000000;
+text-decoration:none;
+}
+.td-hover a:hover{
+color:#FFFFFF;
+text-decoration:none;
+}
+.pagingpage{
+	background-color: #fff;
+	-moz-border-radius:4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius:4px;
+	text-align:center;
+	padding: 2px;
+	border: 1px solid #C8E862;
+	float:left;
+}
+.pagingpage-nomor{
+	background-color: #fff;
+	-moz-border-radius:4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius:4px;
+	text-align:center;
+	width:20px;
+	padding: 2px;
+	border: 1px solid #C8E862;
+	float:left;
+}
+.tombol{
+background-color:#EEFAFF;
+border:1px solid #DDDDDD;
+font-size:11px;
+color:#666666;
+font-weight:bold;
+}
+.textfield{
+background-color:#EEFAFF;
+-moz-border-radius:4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius:4px;
+font-size:12px;
+font-family:Arial;
+}
+.textfield-option{
+background-color:#EEFAFF;
+font-size:11px;
+}
